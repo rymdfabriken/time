@@ -1,0 +1,39 @@
+{
+  "name": "generic-ticker-tocker",
+  "version": "1.0.1",
+  "description": "Sequencer, countdown, timer, or the embryo for Metric Time Reform. You decide. No dependencies.",
+  "main": "index.js",
+  "target": "es6",
+  "files": [
+    "dist",
+    "src",
+    "generic-ticker-tocker.test.js",
+    "example.js",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc src/index.ts"
+  },
+  "keywords": [
+    "time",
+    "tick",
+    "tick-tock",
+    "ticker",
+    "clock",
+    "timer",
+    "countdown",
+    "trigger",
+    "timer",
+    "sequencer"
+  ],
+  "author": "Peter Karlsson",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "generic-ticker-tocker": "file:./dist",
+    "jest": "^29.2.1",
+    "typescript": "^4.8.4",
+    "typescript-cli": "^0.1.0"
+  }
+}

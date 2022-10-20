@@ -1,0 +1,1 @@
+/// <reference path="generic-ticker-tocker.d.ts" />
