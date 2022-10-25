@@ -1,0 +1,14 @@
+{
+  "name": "counter-upper",
+  "version": "1.0.0",
+  "description": "Pretty functional timer function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "rymdpeter",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
